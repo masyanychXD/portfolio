@@ -1,0 +1,11 @@
+// main.scss
+
+// Импортируем Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Переопределяем переменные Bootstrap
+$primary: #ff5733;
+$secondary: #333;
+
+// Импортируем Bootstrap повторно, чтобы применились наши переменные
+@import "~bootstrap/scss/bootstrap";
